@@ -1,0 +1,57 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+thead {
+  background-color: #4da6ff;
+  color: white;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f8ff;
+}
+
+tr:hover {
+  background-color: #012e58;
+}
+
+button {
+  background-color: #4da6ff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+  background-color: #3399ff;
+}
+
+button.excluir {
+  background-color: #ff6666;
+}
+
+button.excluir:hover {
+  background-color: #ff4d4d;
+}
+.filtro-input {
+  margin-bottom: 15px;
+  padding: 8px 12px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
